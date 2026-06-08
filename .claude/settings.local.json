@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python media_TEST.PY)",
+      "Bash(python -c \"import mediapipe; print\\(mediapipe.__version__\\); print\\(mediapipe.__file__\\)\")",
+      "Bash(python -c \"import mediapipe as mp; print\\(dir\\(mp\\)\\)\")",
+      "Bash(python -m pip install --upgrade --force-reinstall --no-deps mediapipe)"
+    ]
+  }
+}
